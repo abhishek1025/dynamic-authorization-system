@@ -1,0 +1,52 @@
+# Build folders (for all projects)
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet Packages (optional)
+*.nupkg
+packages/
+
+# Logs and test results
+*.log
+TestResults/
+*.coverage
+*.coveragexml
+
+# ASP.NET Core Secrets and configs
+secrets.json
+.env
+
+# Publish folder
+**/publish/
+
+# EF Core Migrations snapshot (optional)
+**/Migrations/
+
+# Docker files (optional if used)
+**/Dockerfile
+**/docker-compose.yml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment-specific settings (ignored)
+**/appsettings.*.json
+
+.vs/

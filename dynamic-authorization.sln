@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2973E0F8-21A4-44FE-923F-D98B38AE7CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic-authorization.domain", "Domain\dynamic-authorization.domain\dynamic-authorization.domain.csproj", "{A2121255-9C01-46BB-A257-D03974CE6B98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F69FC247-86D7-4326-B670-C19EA8A57B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic-authorization.application", "Application\dynamic-authorization.application\dynamic-authorization.application.csproj", "{CD6C9C94-C47A-4FDB-9BDF-6F6B90035DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8B991BCC-B75F-4EFC-A87E-DDF833E82A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic-authorization.infrastructure", "Infrastructure\dynamic-authorization.infrastructure\dynamic-authorization.infrastructure.csproj", "{BC6A246E-B6C1-40E4-8184-D6E3D343C8A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1B620E37-D3FD-4633-A7E7-D20D7C51E085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dynamic-authorization.api", "Presentation\dynamic-authorization.api\dynamic-authorization.api.csproj", "{E6B84747-FC60-47D9-9300-52830554DC3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2121255-9C01-46BB-A257-D03974CE6B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2121255-9C01-46BB-A257-D03974CE6B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2121255-9C01-46BB-A257-D03974CE6B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2121255-9C01-46BB-A257-D03974CE6B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6C9C94-C47A-4FDB-9BDF-6F6B90035DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6C9C94-C47A-4FDB-9BDF-6F6B90035DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6C9C94-C47A-4FDB-9BDF-6F6B90035DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6C9C94-C47A-4FDB-9BDF-6F6B90035DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6A246E-B6C1-40E4-8184-D6E3D343C8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6A246E-B6C1-40E4-8184-D6E3D343C8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6A246E-B6C1-40E4-8184-D6E3D343C8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6A246E-B6C1-40E4-8184-D6E3D343C8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B84747-FC60-47D9-9300-52830554DC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B84747-FC60-47D9-9300-52830554DC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B84747-FC60-47D9-9300-52830554DC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B84747-FC60-47D9-9300-52830554DC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2121255-9C01-46BB-A257-D03974CE6B98} = {2973E0F8-21A4-44FE-923F-D98B38AE7CB7}
+		{CD6C9C94-C47A-4FDB-9BDF-6F6B90035DC7} = {F69FC247-86D7-4326-B670-C19EA8A57B42}
+		{BC6A246E-B6C1-40E4-8184-D6E3D343C8A6} = {8B991BCC-B75F-4EFC-A87E-DDF833E82A47}
+		{E6B84747-FC60-47D9-9300-52830554DC3A} = {1B620E37-D3FD-4633-A7E7-D20D7C51E085}
+	EndGlobalSection
+EndGlobal

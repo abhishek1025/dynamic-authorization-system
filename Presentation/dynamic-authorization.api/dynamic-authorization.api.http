@@ -1,0 +1,6 @@
+@dynamic_authorization.api_HostAddress = http://localhost:5040
+
+GET {{dynamic_authorization.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
